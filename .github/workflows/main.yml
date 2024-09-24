@@ -32,8 +32,8 @@ jobs:
     - name: Passo 2
       run: echo "Passo 2"
 
-    - name: Passo ...
-      run: echo "Passo ..."
+    - name: Passo falho
+      run: echo "Passo falho" exit 1
 
   job3:
       name: Job 3
